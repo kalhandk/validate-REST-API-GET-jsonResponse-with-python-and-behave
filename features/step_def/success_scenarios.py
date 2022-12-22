@@ -33,6 +33,3 @@ def step_impl(context):
 
     json_response = context.response.json()
     assert json_response['message'] == "Successfully! Record has been fetched.", "Invalid message: %s" % json_response
-
-
-# allure_report("test-results/reports")
